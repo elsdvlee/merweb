@@ -15,7 +15,7 @@ async function main() {
     .requiredOption('-f, --file <path>', 'File with diagram')
     .option('-s, --shapes-output <path>', 'File where shape is written to')
     .option('-b, --shapes-base-iri <iri>', 'Base IRI of the shapes', 'ex=http://example.com/')
-    .option('-c, --custom-output <path>', 'Base IRI of the shapes',)
+    .option('-c, --custom-output <path>', 'File where custom vocabulary is written to',)
     .option('-v, --custom-base-iri <iri>', 'Base IRI of custom vocabulary',)
     .option('-r, --remove-annotations', 'Remove annotations of diagram. Result is written to stdout',);
 
